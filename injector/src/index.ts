@@ -442,7 +442,7 @@ function scaffoldPackageJson(pkgName: string, description: string, form: string)
     '@deepseek-ai/dsh-llm': '>=0.0.1-rc <2',
     '@deepseek-ai/dsh-tools': '>=0.0.1-rc <2',
     'cordis': '>=4.0.0-rc <5',
-    'schemastery': '^3.18.0',
+    '@deepseek-ai/schemastery': '^3.18.2',
   }
   if (withClient) {
     peerDeps['@deepseek-ai/dsh-client-ui-slots'] = '>=0.0.1-rc <2'
